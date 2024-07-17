@@ -1,10 +1,9 @@
 <img src="./dotlook_banner.png" alt="dotlook_banner" style="width:100%; height:220px; object-fit:cover;">
 
 <div style="display: flex; align-items: center;">
-  <img src="./dotlook_image.jpg" alt="magnifying_glass" style="width:50px; height:50px; margin-right: 10px; transform: translateY(5px);">
+  <img src="./dotlook_image.jpg" alt="magnifying_glass" style="width:20px; height:20px; margin-right: 10px;">
   <h1 style="margin: 0;">dotlook</h1>
 </div>
-
 시각 장애인들을 위해 실시간으로 책을 점자로 변환할 수 있게해주는 머신입니다. 라즈베리파이 카메라를 사용하여 책을 촬영하면 google vision의 OCR을 사용하여 텍스트를 검출합니다. 이후 OCR이 완벽하게 인식하지 못한 경우 Chat GPT를 사용하여 문장을 완성시킵니다.
 
 ## 개발자 소개
