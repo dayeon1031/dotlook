@@ -3,12 +3,12 @@ import io  # 정규 표현식 모듈 추가
 import openai
 
 # JSON 파일 경로 설정
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/jeongyun/final.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "your_path"
 from google.cloud import vision
 
 # OpenAI API 키 설정
-#OPENAI_API_KEY = "your_path"
-#openai.api_key = OPENAI_API_KEY
+OPENAI_API_KEY = "your_path"
+openai.api_key = OPENAI_API_KEY
 
 # 사용할 모델 설정
 model = "gpt-3.5-turbo"
@@ -51,3 +51,6 @@ response = openai.ChatCompletion.create(
 # 응답 출력
 answer = response['choices'][0]['message']['content']
 print("변환후 : "+answer)
+
+
+
